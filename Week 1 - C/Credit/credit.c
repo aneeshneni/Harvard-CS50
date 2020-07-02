@@ -10,7 +10,7 @@ int main(void) {
         length++;
         tester /= 10;
     }
-    int eq = (number%1000000000000000);
+    int eq = (number%100000000000000);
     if (length == 15) {
         printf("American Express\n");
         boo = true;
@@ -19,7 +19,7 @@ int main(void) {
         printf("Visa\n");
         boo = true;
     }
-    else if (length == 16 && eq == 4) {
+    else if (length == 16 && (eq%10 == 4)) {
         printf("Visa\n");
         boo = true;
     }
