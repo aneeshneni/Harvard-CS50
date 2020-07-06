@@ -2,16 +2,24 @@
 #include <stdio.h>
 
 int main(void) {
+    //variables
     long number = get_long("Enter Credit Card Number: ");
-    int tester = number;
+    long tester = number;
     int length = 0;
     bool boo = false;
+
+    //getting length of number
     while (tester != 0) {
         length++;
         tester /= 10;
     }
+
+    //repeating equation
     int eq = (number%100000000000000);
+
+    //type of card checker (main code)
     if (length == 15) {
+        printf("%i\n", length);
         printf("American Express\n");
         boo = true;
     }
@@ -27,8 +35,11 @@ int main(void) {
         printf("MasterCard\n");
         boo = true;
     }
+
+    //invalid output
     else {
-        printf("Invalid Card");
+        printf("%i\n", length);
+        printf("Invalid Card\n");
         boo = false;
     }
 }
