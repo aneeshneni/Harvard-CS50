@@ -1,0 +1,2 @@
+/*This program encrypts user input text using the user input key, and checks to make 
+sure capitalization and other punctuation is followed for ease of deciphering.*/
