@@ -1,0 +1,2 @@
+//made helpers.c file to complete the photo filter project. took images input and changed the pixels to
+//black and white, horizontally reversed the image, gave it an antique look, or even made it more blurry.
