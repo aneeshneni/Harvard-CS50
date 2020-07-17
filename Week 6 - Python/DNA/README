@@ -1,0 +1,2 @@
+//Checks to see if a given DNA strand (lengthy string) has a match in the database and then prints out the results
+//The checking process uses substrings and SRA length calculations to be more precise
