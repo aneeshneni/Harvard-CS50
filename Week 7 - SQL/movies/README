@@ -1,0 +1,2 @@
+//Takes in database of IMDB list and outputs according to the requirements for each sql file.
+//Manipulating multiple tables and joining tables to search together for complex queries.
